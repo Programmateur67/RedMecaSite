@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
    <head>
     <title>Red Meca : tout sur le High-Tech !</title>
     <meta charset="utf-8"/>
@@ -42,9 +42,35 @@
                 <div class="navbar-header hidden-xs hidden-lg hidden-md col-sm-8">
                     <a href="index.html" class="navbar-brand btn">Red Meca</a>                    
                 </div>
-                <a href="Visitor/Profil.html" class="col-sm-2 btn btn-warning aprofil hidden-md hidden-lg">
+                <a class="col-sm-2 btn btn-warning aprofil hidden-md hidden-lg" data-toggle="modal" data-target="#coModalsm">
                     <span class="fa fa-user" aria-hidden="true"></span>
                 </a>
+                <div id="coModalsm" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="center">CONNEXION</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form well">
+                                    <legend>Connectez-vous ou inscrivez-vous :</legend>
+                                    <div class="form-group">
+                                        <label for="pseudo"><span class="fa fa-user"></span> Pseudonyme :</label>
+                                        <input id="pseudo" type="text" class="form-control" placeholder="Vous l'avez oublié ?"/>
+                                        <label for="mdp"><span class="glyphicon glyphicon-eye-open"></span> Mot de passe :</label>
+                                        <input id="mdp" type="password" class="form-control" placeholder="Pssst, c'est secret !"/>
+                                        <button type="submit" class="btn btn-warning botom"><span class="glyphicon glyphicon-ok"></span> Me connecter</button>
+                                        <a href="#" role="button" class="btn btn-primary botom"><span class="glyphicon glyphicon-eye-close"></span> Aaaaah, j'ai tout oublié !</a>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <a role="button" href="#" class="btn btn-warning form-control"><span class="fa fa-sign-in"></span> Inscrivez-vous !</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                     <div id="collapsed" class="collapse">
                         <ul class="nav navbar-nav btn-group col-sm-12 hidden-md hidden-lg">
                             <li class="inline"><a href="#Séries" class="btn btn-sm1">Séries</a></li>
@@ -68,9 +94,35 @@
                         </div>
                     </div>
                 </div>
-                <a href="Visitor/Profil.html" class=" col-lg-1 col-md-1 btn btn-warning aprofil2 hidden-sm">
+                <a class=" col-lg-1 col-md-1 btn btn-warning aprofil2 hidden-sm" data-toggle="modal" data-target="#coModal">
                     <span class="fa fa-user" aria-hidden="true"></span>
                 </a>
+                <div id="coModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="center">CONNEXION</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form well">
+                                    <legend>Connectez-vous ou inscrivez-vous :</legend>
+                                    <div class="form-group">
+                                        <label for="pseudo"><span class="fa fa-user"></span> Pseudonyme :</label>
+                                        <input id="pseudo" type="text" class="form-control" placeholder="Vous l'avez oublié ?"/>
+                                        <label for="mdp"><span class="glyphicon glyphicon-eye-open"></span> Mot de passe :</label>
+                                        <input id="mdp" type="password" class="form-control" placeholder="Pssst, c'est secret !"/>
+                                        <button type="submit" class="btn btn-warning botom"><span class="glyphicon glyphicon-ok"></span> Me connecter</button>
+                                        <a href="#" role="button" class="btn btn-primary botom"><span class="glyphicon glyphicon-eye-close"></span> Aaaaah, j'ai tout oublié !</a>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <a role="button" href="#" class="btn btn-warning form-control"><span class="fa fa-sign-in"></span> Inscrivez-vous !</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div id="collapsed2" class="collapse hidden-sm">
                     <input type="search" placeholder="Recherche" class="input-md form-control"/>
                     <ul class="row">
@@ -85,16 +137,42 @@
             </div>
       </header>
       <header class="row hidden-lg hidden-md hidden-sm">
-        <div class="navbar navbar-default navbar-fixed-top col-xs-12 ban row">
+        <div class="navbar navbar-default navbar-static-top col-xs-12 ban row">
             <div>
                 <a role="button" data-toggle="collapse" href="#collapsedxs" class="bars btn col-xs-2"><span class="fa fa-bars"></span></a>
             </div>
             <div class="navbar-header col-xs-8">
                 <a href="index.html" class="navbar-brand btn">Red Meca</a>                    
             </div>
-            <a href="Visitor/Profil.html" class="col-xs-2 btn btn-warning aprofil">
+            <a class="col-xs-2 btn btn-warning aprofil" data-toggle="modal" data-target="#coModalxs">
                 <span class="fa fa-user" aria-hidden="true"></span>
             </a>
+            <div id="coModalxs" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-xs">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="center">CONNEXION</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form class="form well">
+                                <legend>Connectez-vous ou inscrivez-vous :</legend>
+                                <div class="form-group">
+                                    <label for="pseudo"><span class="fa fa-user"></span> Pseudonyme :</label>
+                                    <input id="pseudo" type="text" class="form-control" placeholder="Vous l'avez oublié ?"/>
+                                    <label for="mdp"><span class="glyphicon glyphicon-eye-open"></span> Mot de passe :</label>
+                                    <input id="mdp" type="password" class="form-control" placeholder="Pssst, c'est secret !"/>
+                                    <button type="submit" class="btn btn-warning botom"><span class="glyphicon glyphicon-ok"></span> Me connecter</button>
+                                    <a href="#" role="button" class="btn btn-primary botom"><span class="glyphicon glyphicon-eye-close"></span> Aaaaah, j'ai tout oublié !</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <a role="button" href="#" class="btn btn-warning form-control"><span class="fa fa-sign-in"></span> Inscrivez-vous !</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="collapsedxs" class="collapse">
                 <div class="row">
                     <ul class="nav navbar-nav btn-group col-xs-12">
@@ -125,13 +203,14 @@
         </div>
       </header>
       <div>
-        <section id="Séries" class="section row">
+      <section id="Séries" class="section row">
+            <h1>Séries</h1>
       </section>
         <section id="CréaProd" class="section1 row">
-        <h1>En construction</h1>
+        <h1>Créaprod</h1>
       </section>
         <section id="Multimédia" class="section row">
-        <h1>En construction</h1>
+        <h1>Multimédia</h1>
       </section>
         <section id="Games" class="section1 row">
         <h1>En construction</h1>
@@ -478,11 +557,6 @@
       </section>
       <script src="bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
       <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-      
-      <script>
-        $(document).ready(function(){
-            $('[data-toggle="popover"]').popover();
-      </script>
       <script>
          $(function() {
             $('li>a').on('click', function(e) {
