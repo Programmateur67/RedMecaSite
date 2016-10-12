@@ -1,0 +1,227 @@
+.btn-custom {
+  background-color: hsl(360, 88%, 64%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f35252", endColorstr="#f35252");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#f35252), to(#f35252));
+  background-image: -moz-linear-gradient(top, #f35252, #f35252);
+  background-image: -ms-linear-gradient(top, #f35252, #f35252);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f35252), color-stop(100%, #f35252));
+  background-image: -webkit-linear-gradient(top, #f35252, #f35252);
+  background-image: -o-linear-gradient(top, #f35252, #f35252);
+  background-image: linear-gradient(#f35252, #f35252);
+  border-color: #f35252 #f35252 hsl(360, 88%, 64%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.00);
+  -webkit-font-smoothing: antialiased;
+}
+.btn-custom2 {
+  background-color: hsl(195, 79%, 53%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28b6e5", endColorstr="#28b6e5");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#28b6e5), to(#28b6e5));
+  background-image: -moz-linear-gradient(top, #28b6e5, #28b6e5);
+  background-image: -ms-linear-gradient(top, #28b6e5, #28b6e5);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #28b6e5), color-stop(100%, #28b6e5));
+  background-image: -webkit-linear-gradient(top, #28b6e5, #28b6e5);
+  background-image: -o-linear-gradient(top, #28b6e5, #28b6e5);
+  background-image: linear-gradient(#28b6e5, #28b6e5);
+  border-color: #28b6e5 #28b6e5 hsl(195, 79%, 53%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.00);
+  -webkit-font-smoothing: antialiased;
+  margin-right: 10px;
+}
+.navbar-brand
+{
+    font-size: 150%;
+}
+.navbar
+{
+    margin: 0px;
+    
+}
+.shadow
+{
+    border-bottom-color: darkgrey;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 10px;
+}
+.center
+{
+    text-align: center;
+}
+figcaption
+{
+    font-style: italic;
+    color: darkgrey;
+    margin: 0px;
+    padding: 0px;
+}
+figure hr
+{
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+.section
+{
+    padding: 1%;
+}
+.btn-sm1
+{
+    margin-left: 2%;
+    text-align: left;
+    font-size: 95%;
+}
+.btnxs
+{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    line-height: 400%;;
+}
+article
+{
+    text-align: justify
+}
+.section1
+{
+    padding: 1%;
+    background-color: #eaeaea;
+}
+.form-control
+{
+    margin-bottom: 1%;
+}
+.sign
+{
+    margin-top: 1%;
+}
+.well
+{
+    margin-bottom: 0px;
+}
+.centerfig
+{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.centerfig2
+{
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.centerfig3
+{
+    margin-top: 0.5%;
+    margin-left: 15%;
+}
+
+.centerfigu
+{
+}
+.centerfigu2
+{
+}
+.centerfigu3
+{
+}
+.orange
+{
+    background-color: #e67e22;
+}
+.a
+{
+    color: #e67e22;
+    background-color: lightgray;
+    padding: 1%;
+    border-radius: 20px;
+}
+.a:hover
+{
+    background-color: darkgrey;
+    color: #e67e22;
+    font-style: normal;
+    text-decoration: none;
+}
+h4
+{
+    font-size: 200%;
+}
+.a:hover
+{
+    text-decoration: none;
+    color: #e67e22; 
+}
+.a:visited
+{
+    text-decoration: none;
+    color: #e67e22;
+}
+.a:focus
+{
+    text-decoration: none;
+    color: #e67e22;
+}
+.a
+{
+    color: #e67e22;
+}
+.bgspe
+{
+    background-image: url(bg/IMG_20160917_133006.jpg);
+    background-size: cover;
+}
+.aprofil
+{
+    display: inline-block;
+    color: #FFF;
+    margin-top:  1%;
+    margin-bottom: 0.5%;
+}
+.aprofil2
+{
+    display: inline-block;
+    color: white;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+.form
+{
+    margin-top: 1%;
+}
+.place
+{
+    font-style: italic;
+    color: grey;
+}
+.navbar-brand
+{
+    display: inline-block;
+    width: 100%;
+}
+.inline
+{
+    display: inline-block;
+    width: 100%;
+}
+.bars
+{
+    color: black;
+    margin-top: 1%;
+}
+
+.ban
+{
+    margin-bottom: 20px;
+}
+.banxs
+{
+    margin-bottom: 10%;
+}
+.padding
+{
+    padding: 1%;
+}
+li
+{
+    list-style: none;
+}
