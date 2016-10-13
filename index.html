@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-   <head>
+  <head>
     <title>Red Meca : tout sur le High-Tech !</title>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -20,11 +20,11 @@
   </head>
   <body class="container-fluid" data-spy="srcoll" data-target=".navbar">
       <header class="row hidden-xs">
-            <nav class="navbar navbar-default navbar-fixed-top ban col-md-12">
-                <div class="navbar-header hidden-xs hidden-sm hidden-md col-lg-2">
+            <nav class="navbar navbar-default navbar-fixed-top ban col-xs-12">
+                <div class="navbar-header hidden-xs hidden-sm hidden-md col-lg-1">
                     <a href="index.html" class="navbar-brand btn">Red Meca</a>                    
                 </div>
-                <ul class="nav navbar-nav btn-group col-md-11 col-lg-9 hidden-sm">
+                <ul class="nav navbar-nav btn-group col-md-11 col-lg-10 hidden-sm">
                     <li><a href="#Séries" class="btn btn-sm1">Séries</a></li>
                     <li><a href="#CréaProd" class="btn btn-sm1">CréaProd</a></li>
                     <li><a href="#Multimédia" class="btn btn-sm1">Multimédia</a></li>
@@ -35,7 +35,7 @@
                     <li><a href="#Réflexion" class="btn btn-sm1">Réflexion</a></li>
                     <li><a href="#Bazar" class="btn btn-sm1">Bazar</a></li>
                     <li><a href="#Forum" class="btn btn-sm1">Forums</a></li>
-                    <li><a role="button" data-toggle="collapse" href="#collapsed2" class="btn btn-sm1"><span class="fa fa-plus"></span></a></li>
+                    <a role="button" data-toggle="collapse" href="#collapsed2" class="btn btn-plus col-xs-1"><span class="fa fa-plus"></span></a>
                 </ul>
                 <div class="row hidden-md hidden-lg">
                     <a role="button" data-toggle="collapse" href="#collapsed" class="bars btn col-sm-2"><span class="fa fa-bars"></span></a>
@@ -80,9 +80,6 @@
                     </ul>
                 </div>
             </nav>
-            <div class="row">
-                <img src="banniere.png" alt="bannière" class="img-responsive"/>
-            </div>
       </header>
       <header class="row hidden-lg hidden-md hidden-sm">
         <div class="navbar navbar-default navbar-static-top col-xs-12 ban row">
@@ -120,11 +117,15 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-                <img src="banniere.png" alt="bannière" class="img-responsive"/>
-        </div>
       </header>
-      <div>
+      <div class="row hidden-sm hidden-md hidden-lg">
+          <a href="index.html"><img src="banniere.png" alt="bannière" class="img-responsive"/></a>
+      </div>
+      <div class="body">
+        <div class="row hidden-xs">
+            <a href="index.html"><img src="banniere.png" alt="bannière" class="img-responsive"/></a>
+      </div>
+        <div>
       <section id="Séries" class="section row">
             <h1>Séries</h1>
       </section>
@@ -191,7 +192,7 @@
         </form>
       </section>
       </div>
-      <section class="hidden-xs hidden-md hidden-lg">
+        <section class="hidden-xs hidden-md hidden-lg">
         <div class="">
             <div id="ht" class="section row well">
             <h4 class="col-md-12 center">Un thème : le High-Tech</h4>
@@ -290,7 +291,7 @@
         </div>
         </div>
       </section>
-      <section class="hidden-xs hidden-sm">
+        <section class="hidden-xs hidden-sm">
         <div id="ht1" class="section row well">
             <h4 class="col-md-12 center">Un thème : le High-Tech</h4>
             <article class="col-md-10 well">
@@ -387,7 +388,7 @@
             </aside>
         </div>
       </section>
-      <section class="hidden-sm hidden-md hidden-lg">
+        <section class="hidden-sm hidden-md hidden-lg">
         <div id="htxs" class="section row well">
             <h4 class="col-sm-12 center">Un thème : le High-Tech</h4>
             <aside>
@@ -477,10 +478,10 @@
             </article>
         </div>
       </section>
-      <script src="bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
-      <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-      <script>
-         $(function() {
+        <script src="bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script>
+            $(function() {
             $('li>a').on('click', function(e) {
                 e.preventDefault();
                 var hash = this.hash;
@@ -495,13 +496,13 @@
                 var $spy = $(this).scrollspy('refresh')
             });
          });
-      </script>
-      <div id="coModalsm" class="modal fade" role="dialog">
+        </script>
+        <div id="coModalsm" class="modal fade" role="dialog">
                     <div class="modal-dialog modal-sm">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="center">CONNEXION</h4>
+                                <h4 class="center h4modal">CONNEXION</h4>
                             </div>
                             <div class="modal-body">
                                 <form class="form well">
@@ -522,12 +523,12 @@
                         </div>
                     </div>
                 </div>
-      <div id="coModalxs" class="modal fade" role="dialog">
+        <div id="coModalxs" class="modal fade" role="dialog">
                 <div class="modal-dialog modal-xs">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="center">CONNEXION</h4>
+                            <h4 class="center h4modal">CONNEXION</h4>
                         </div>
                         <div class="modal-body">
                             <form class="form well">
@@ -548,12 +549,12 @@
                     </div>
                 </div>
             </div>
-      <div id="coModal" class="modal fade" role="dialog">
+        <div id="coModal" class="modal fade" role="dialog">
                     <div class="modal-dialog modal-md">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="center">CONNEXION</h4>
+                                <h4 class="center h4modal">CONNEXION</h4>
                             </div>
                             <div class="modal-body">
                                 <form class="form well">
@@ -574,5 +575,6 @@
                         </div>
                     </div>
                 </div>
+      </div>
   </body>
 </html>
