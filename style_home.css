@@ -241,3 +241,20 @@ li
     margin-top: 0.75%;
     margin-bottom: 0.15%;
 }
+.iframesection
+{
+}
+.media-body, .media
+{
+    margin: 1%;
+}
+.btn-heart, .btn-down, .btn-square, .btn-share, .btn-plusmedia, .btn-com
+{
+    color: #e74c3c;
+    background-color: lightgray;
+}
+.hrmedia
+{
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
